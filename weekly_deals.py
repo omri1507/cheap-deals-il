@@ -13,9 +13,11 @@ NOT work from a network-sandboxed environment (see README) — the chains'
 data portals aren't reachable from most sandboxes.
 """
 
+import csv
 import json
 import os
 import shutil
+import sys
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -29,6 +31,18 @@ DUMPS_DIR = "dumps"
 PARSED_DIR = "parsed"
 DATA_DIR = "data"
 
+# Some promo files carry a field (e.g. long "remarks"/"additionalrestrictions"
+# text) past Python's default 128KB csv field-size limit, which aborts that
+# file's parse worker. Raise it up front, before any multiprocessing pool is
+# spawned, so forked workers inherit the higher limit too.
+_max_field_size = sys.maxsize
+while True:
+    try:
+        csv.field_size_limit(_max_field_size)
+        break
+    except OverflowError:
+        _max_field_size //= 10
+
 
 def pick_column(df: pd.DataFrame, candidates: list[str]) -> str | None:
     """Return the first existing column whose name contains any candidate substring."""
@@ -41,8 +55,11 @@ def pick_column(df: pd.DataFrame, candidates: list[str]) -> str | None:
 
 
 def scrape(file_types: list[str]) -> None:
-    if os.path.isdir(DUMPS_DIR):
-        shutil.rmtree(DUMPS_DIR)
+    # NOTE: does not clear DUMPS_DIR itself — main() calls this twice (once
+    # for STORE_FILE, once for PRICE_FULL/PROMO_FULL) and each chain's files
+    # land in their own subfolder, so wiping here would delete the previous
+    # call's output before it's ever parsed. Clearing happens once, up front,
+    # in main().
     task = ScarpingTask(
         enabled_scrapers=config.CHAINS,
         files_types=file_types,
@@ -215,6 +232,8 @@ def build_digest() -> dict:
 
 
 def main() -> None:
+    if os.path.isdir(DUMPS_DIR):
+        shutil.rmtree(DUMPS_DIR)
     print("Scraping store lists...")
     scrape([FileTypesFilters.STORE_FILE.name])
     print("Scraping price + promo files...")
