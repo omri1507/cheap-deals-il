@@ -149,6 +149,50 @@ def is_food_and_vegan(name: str) -> bool:
     return not any(bad in name for bad in config.NON_VEGAN_KEYWORDS)
 
 
+def extract_item_codes(value) -> list[str]:
+    """Pull every itemcode out of a promo row's nested item-list JSON.
+
+    No chain puts a flat itemcode column on the promotion row: one
+    promotion can cover several items, so the government XML schema nests
+    them (e.g. groups -> group -> promotionitems -> promotionitem -> [...]),
+    and the exact nesting/column ('groups' vs a top-level 'promotionitems')
+    varies by chain. A single child collapses to a dict instead of a
+    one-item list in this schema's XML->JSON flattening, so a plain
+    ['promotionitem'] lookup would miss that case — recursing through
+    everything and collecting any 'itemcode' key sidesteps needing to know
+    the exact shape per chain.
+    """
+    if not isinstance(value, str) or not value.strip().startswith("{"):
+        return []
+    try:
+        parsed = json.loads(value)
+    except (json.JSONDecodeError, ValueError):
+        return []
+
+    codes: list[str] = []
+
+    def walk(node) -> None:
+        if isinstance(node, dict):
+            for key, val in node.items():
+                if key.lower() == "itemcode" and val not in (None, "", "NO_BODY"):
+                    codes.append(str(val))
+                else:
+                    walk(val)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+
+    walk(parsed)
+    # de-dup, keep order
+    seen: set[str] = set()
+    unique = []
+    for c in codes:
+        if c not in seen:
+            seen.add(c)
+            unique.append(c)
+    return unique
+
+
 def build_digest() -> dict:
     stores_df = load_csvs("store")
     prices_df = load_csvs("pricefull")
@@ -182,6 +226,7 @@ def build_digest() -> dict:
     item_code_col_prices = pick_column(prices_df, ["itemcode"])
     item_name_col = pick_column(prices_df, ["itemname"])
     item_code_col_promo = pick_column(promo_df, ["itemcode"])
+    nested_item_cols = [c for c in ("groups", "promotionitems") if c in promo_df.columns]
     promo_desc_col = pick_column(promo_df, ["promotiondescription", "promotiontext", "promotiondesc"])
     promo_price_col = pick_column(promo_df, ["discountedprice"])
     promo_start_col = pick_column(promo_df, ["promotionstartdate"])
@@ -190,9 +235,50 @@ def build_digest() -> dict:
     promo_store_col = pick_column(promo_df, ["storeid"])
 
     deals = []
-    if not (item_code_col_promo and item_code_col_prices and item_name_col):
-        print("WARN: missing expected columns for joining promo->item name; see _debug_columns.json")
+    if not (item_name_col and item_code_col_prices):
+        print("WARN: missing expected columns on price file for item-name lookup; see _debug_columns.json")
+    elif not (item_code_col_promo or nested_item_cols):
+        print("WARN: no itemcode column or nested item list found on promo rows; see _debug_columns.json")
     else:
+        # Restrict to matched stores FIRST, scoped by chain when possible:
+        # store ids are only unique within a chain, so matching storeid
+        # alone could pull in a different chain's promo for a coincidentally
+        # identical numeric store id. This also keeps the per-row JSON
+        # parsing below cheap — it only has to run over one store's promos,
+        # not the whole chain's.
+        my_promo = promo_df
+        if promo_store_col and store_id_col and not my_stores.empty:
+            if promo_chain_col and chain_col and chain_col in my_stores.columns:
+                my_store_keys = set(
+                    my_stores[chain_col].astype(str) + "::" + my_stores[store_id_col].astype(str)
+                )
+                promo_keys = promo_df[promo_chain_col].astype(str) + "::" + promo_df[promo_store_col].astype(str)
+                my_promo = promo_df[promo_keys.isin(my_store_keys)]
+            else:
+                my_store_ids = set(my_stores[store_id_col].astype(str))
+                my_promo = promo_df[promo_df[promo_store_col].astype(str).isin(my_store_ids)]
+
+        # No chain puts a flat itemcode column on the promotion row itself
+        # (a promotion can cover several items) — item codes live nested
+        # several levels deep inside a 'groups' or 'promotionitems' JSON
+        # blob instead, and which column/depth varies by chain. Collect
+        # every itemcode this row's JSON contains (falling back to a flat
+        # itemcode column too, in case some chain does expose one directly)
+        # and explode to one row per (promo, item).
+        def row_item_codes(row) -> list[str]:
+            codes = []
+            if item_code_col_promo:
+                v = row.get(item_code_col_promo)
+                if isinstance(v, str) and v.strip():
+                    codes.append(v.strip())
+            for col in nested_item_cols:
+                codes.extend(extract_item_codes(row.get(col)))
+            return codes or [None]  # keep the promo row even with no item found
+
+        my_promo = my_promo.copy()
+        my_promo["_item_codes"] = my_promo.apply(row_item_codes, axis=1)
+        exploded = my_promo.explode("_item_codes")
+
         # Look up item name by itemcode only (drop_duplicates first) instead
         # of merging the full prices table: itemcode repeats once per store
         # in prices_df, so a plain merge on itemcode alone would fan out
@@ -200,40 +286,22 @@ def build_digest() -> dict:
         item_names = prices_df[[item_code_col_prices, item_name_col]].drop_duplicates(
             subset=[item_code_col_prices]
         )
-        merged = promo_df.merge(
+        merged = exploded.merge(
             item_names,
-            left_on=item_code_col_promo,
+            left_on="_item_codes",
             right_on=item_code_col_prices,
             how="left",
         )
-
-        # Restrict to matched stores, scoped by chain when possible: store
-        # ids are only unique within a chain, so matching storeid alone
-        # could pull in a different chain's promo for a coincidentally
-        # identical numeric store id.
-        if promo_store_col and store_id_col and not my_stores.empty:
-            if promo_chain_col and chain_col and chain_col in my_stores.columns:
-                my_store_keys = set(
-                    my_stores[chain_col].astype(str) + "::" + my_stores[store_id_col].astype(str)
-                )
-                merged_keys = merged[promo_chain_col].astype(str) + "::" + merged[promo_store_col].astype(str)
-                merged = merged[merged_keys.isin(my_store_keys)]
-            else:
-                my_store_ids = set(my_stores[store_id_col].astype(str))
-                merged = merged[merged[promo_store_col].astype(str).isin(my_store_ids)]
 
         for _, row in merged.iterrows():
             name = row.get(item_name_col)
             used_description_fallback = False
             if not isinstance(name, str) or not name.strip():
-                # Not every chain's PromoFull schema puts a flat itemcode on
-                # the promotion row itself — Shufersal's nests item codes
-                # under a per-promotion item list this parser doesn't
-                # flatten here, so the itemcode join above never resolves a
-                # name for it. Fall back to the promo's own description,
+                # The itemcode extracted above may not exist in the price
+                # file (e.g. discontinued item), or no itemcode could be
+                # found at all. Fall back to the promo's own description,
                 # which usually names the item directly (e.g. "קופון דבש
-                # לחיץ 500 גרם"), rather than silently dropping every promo
-                # from chains with this schema shape.
+                # לחיץ 500 גרם"), rather than dropping the promo outright.
                 name = row.get(promo_desc_col) if promo_desc_col else None
                 used_description_fallback = True
             if not is_food_and_vegan(name):
