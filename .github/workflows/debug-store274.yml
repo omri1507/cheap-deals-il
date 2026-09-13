@@ -57,6 +57,9 @@ jobs:
           promo_df = load("promo")
           prices_df = load("price")
           print("promo rows:", len(promo_df), "| price rows:", len(prices_df))
+          print("PROMO COLUMNS:", list(promo_df.columns))
+          print("PRICE COLUMNS:", list(prices_df.columns))
+          print(prices_df.head(3).to_string())
 
           store_col = [c for c in promo_df.columns if "storeid" in c][0]
           itemcode_promo = [c for c in promo_df.columns if "itemcode" in c][0]
