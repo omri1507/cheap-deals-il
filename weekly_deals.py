@@ -193,6 +193,18 @@ def extract_item_codes(value) -> list[str]:
     return unique
 
 
+def promo_is_time_limited(start_val, end_val, max_days: int = 45) -> bool:
+    """True if a promo's start/end span looks like a real time-boxed
+    special rather than a standing store-wide offer (see MAX_PROMO_SPAN_DAYS
+    in config.py). Dates that can't be parsed are kept rather than dropped."""
+    try:
+        start = datetime.fromisoformat(str(start_val)[:19])
+        end = datetime.fromisoformat(str(end_val)[:19])
+    except (ValueError, TypeError):
+        return True
+    return (end - start).days <= max_days
+
+
 def build_digest() -> dict:
     stores_df = load_csvs("store")
     prices_df = load_csvs("pricefull")
@@ -257,6 +269,19 @@ def build_digest() -> dict:
             else:
                 my_store_ids = set(my_stores[store_id_col].astype(str))
                 my_promo = promo_df[promo_df[promo_store_col].astype(str).isin(my_store_ids)]
+
+        # Drop standing store-wide offers (meal-voucher redemption, credit-
+        # card perks, ...) filed as "promotions" spanning years rather than
+        # a real weekly special — see MAX_PROMO_SPAN_DAYS in config.py.
+        # Each one would otherwise explode into one row per covered item.
+        if promo_start_col and promo_end_col:
+            time_limited = my_promo.apply(
+                lambda row: promo_is_time_limited(
+                    row.get(promo_start_col), row.get(promo_end_col), config.MAX_PROMO_SPAN_DAYS
+                ),
+                axis=1,
+            )
+            my_promo = my_promo[time_limited]
 
         # No chain puts a flat itemcode column on the promotion row itself
         # (a promotion can cover several items) — item codes live nested

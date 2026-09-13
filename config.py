@@ -57,3 +57,13 @@ NON_VEGAN_KEYWORDS = [
 # to skip this filter entirely and keep everything that isn't blocked
 # by NON_VEGAN_KEYWORDS above.
 FOOD_HINT_KEYWORDS: list[str] = []
+
+# Skip promotions whose start/end dates span longer than this many days.
+# Chains file standing offers (meal-voucher redemption, "5% off our own
+# brand" credit-card perks, ...) as "promotions" with a start/end date
+# years apart (e.g. 2022-07-27 to 2031-01-01) — these apply to virtually
+# every item in the store and aren't a "this week" deal, but each one
+# still explodes into one row per covered item. Filtering by a realistic
+# promo length keeps the digest to genuinely time-limited specials.
+# Raise this if a real multi-week promo run gets excluded.
+MAX_PROMO_SPAN_DAYS = 45
