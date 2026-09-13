@@ -1,0 +1,3 @@
+il-supermarket-scraper>=1.0.11
+il-supermarket-parser>=1.0.9
+pandas>=2.0.0
