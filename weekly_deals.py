@@ -93,7 +93,17 @@ def load_csvs(file_type_hint: str) -> pd.DataFrame:
             if fname.lower().endswith(".csv") and file_type_hint in fname.lower():
                 path = os.path.join(root, fname)
                 try:
-                    frames.append(pd.read_csv(path, dtype=str))
+                    df = pd.read_csv(path, dtype=str)
+                    # il_supermarket_parsers only writes file-level fields
+                    # (chainid, chainname, found_folder, ...) on each source
+                    # file's first output row, leaving them NaN on every
+                    # subsequent row from that same file — the XML they come
+                    # from states them once per file, not once per store.
+                    # These columns don't otherwise change within one parsed
+                    # CSV (which is one file per chain), so forward-filling
+                    # is a safe, minimal fix rather than a real remapping.
+                    df = df.ffill()
+                    frames.append(df)
                 except Exception as exc:  # noqa: BLE001
                     print(f"WARN: failed to read {path}: {exc}")
     if not frames:
@@ -104,9 +114,13 @@ def load_csvs(file_type_hint: str) -> pd.DataFrame:
 def find_my_stores(stores_df: pd.DataFrame) -> pd.DataFrame:
     if stores_df.empty:
         return stores_df
-    addr_col = pick_column(stores_df, ["address", "storename", "storeaddress"])
-    city_col = pick_column(stores_df, ["city"])
-    text_cols = [c for c in [addr_col, city_col] if c]
+    # Search every text-bearing column, not just whichever pick_column finds
+    # first: a place name like "תל אביב" or a neighborhood name just as
+    # often shows up in storename ("בן יהודה תל אביב") as in address, and
+    # "city" is sometimes a numeric city code rather than a name, so no
+    # single column is a reliable enough signal on its own.
+    candidate_names = ["address", "storename", "storeaddress", "city"]
+    text_cols = [c for c in stores_df.columns if any(cand in c for cand in candidate_names)]
     if not text_cols:
         print("WARN: could not find address/city columns on store file; keeping all stores")
         return stores_df
