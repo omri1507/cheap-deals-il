@@ -26,7 +26,7 @@ jobs:
 
           task = ScarpingTask(
               enabled_scrapers=["SHUFERSAL"],
-              files_types=[FileTypesFilters.PROMO_FULL_FILE.name],
+              files_types=[FileTypesFilters.PROMO_FULL_FILE.name, FileTypesFilters.PRICE_FULL_FILE.name],
               multiprocessing=3,
               timeout_in_seconds=1200,
           )
@@ -46,20 +46,51 @@ jobs:
               for f in files:
                   print(os.path.join(root, f))
 
-          promo_df = None
-          for root, dirs, files in os.walk("parsed"):
-              for f in files:
-                  if "promo" in f.lower() and f.lower().endswith(".csv"):
-                      df = pd.read_csv(os.path.join(root, f), dtype=str).ffill()
-                      promo_df = df if promo_df is None else pd.concat([promo_df, df], ignore_index=True)
+          def load(hint):
+              frames = []
+              for root, dirs, files in os.walk("parsed"):
+                  for f in files:
+                      if hint in f.lower() and f.lower().endswith(".csv"):
+                          frames.append(pd.read_csv(os.path.join(root, f), dtype=str).ffill())
+              return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
-          print("total promo rows:", len(promo_df))
+          promo_df = load("promo")
+          prices_df = load("price")
+          print("promo rows:", len(promo_df), "| price rows:", len(prices_df))
+
           store_col = [c for c in promo_df.columns if "storeid" in c][0]
-          print("store_col:", store_col)
-          print("unique storeids sample:", promo_df[store_col].unique()[:20])
+          itemcode_promo = [c for c in promo_df.columns if "itemcode" in c][0]
+          itemcode_price = [c for c in prices_df.columns if "itemcode" in c][0]
+          itemname_col = [c for c in prices_df.columns if "itemname" in c][0]
+          desc_col = [c for c in promo_df.columns if "promotiondescription" in c][0]
+
           mine = promo_df[promo_df[store_col].astype(str) == "274"]
-          print("rows for store 274:", len(mine))
-          desc_col = [c for c in promo_df.columns if "promotiondescription" in c]
-          if desc_col and not mine.empty:
-              print(mine[desc_col[0]].head(20).to_string())
+          print("promo rows for store 274:", len(mine))
+
+          item_names = prices_df[[itemcode_price, itemname_col]].drop_duplicates(subset=[itemcode_price])
+          merged = mine.merge(item_names, left_on=itemcode_promo, right_on=itemcode_price, how="left")
+          print("merged rows:", len(merged))
+          print("rows where itemname is null after join:", merged[itemname_col].isna().sum())
+
+          print("\n=== sample: promo desc | itemcode | joined itemname ===")
+          print(merged[[desc_col, itemcode_promo, itemname_col]].head(30).to_string())
+
+          NON_VEGAN_KEYWORDS = [
+              "בשר", "עוף", "הודו", "כבש", "טלה", "בקר", "חזיר",
+              "דג ", "דגים", "סלמון", "טונה", "פילה", "טילפיה",
+              "נקניק", "המבורגר", "קבב", "שניצל", "פסטרמה", "סלמי", "נתחי",
+              "חלב", "גבינה", "גבינת", "יוגורט", "לבן", "קוטג", "שמנת",
+              "חמאה", "ביצים", "ביצת", "מיונז", "דבש",
+          ]
+          def is_food_and_vegan(name):
+              if not isinstance(name, str) or not name.strip():
+                  return False
+              return not any(bad in name for bad in NON_VEGAN_KEYWORDS)
+
+          names = merged[itemname_col]
+          non_null = names.dropna()
+          print("\nnon-null joined item names:", len(non_null))
+          passing = non_null[non_null.apply(is_food_and_vegan)]
+          print("passing vegan/food filter:", len(passing))
+          print(passing.head(20).to_string())
           EOF
