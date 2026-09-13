@@ -179,17 +179,34 @@ def build_digest() -> dict:
     if not (item_code_col_promo and item_code_col_prices and item_name_col):
         print("WARN: missing expected columns for joining promo->item name; see _debug_columns.json")
     else:
+        # Look up item name by itemcode only (drop_duplicates first) instead
+        # of merging the full prices table: itemcode repeats once per store
+        # in prices_df, so a plain merge on itemcode alone would fan out
+        # into one row per (promo, store-carrying-that-item) pair.
+        item_names = prices_df[[item_code_col_prices, item_name_col]].drop_duplicates(
+            subset=[item_code_col_prices]
+        )
         merged = promo_df.merge(
-            prices_df[[item_code_col_prices, item_name_col] + ([chain_col] if chain_col and chain_col in prices_df.columns else [])],
+            item_names,
             left_on=item_code_col_promo,
             right_on=item_code_col_prices,
             how="left",
         )
 
-        # Restrict to matched stores when we have store id columns on both sides.
+        # Restrict to matched stores, scoped by chain when possible: store
+        # ids are only unique within a chain, so matching storeid alone
+        # could pull in a different chain's promo for a coincidentally
+        # identical numeric store id.
         if promo_store_col and store_id_col and not my_stores.empty:
-            my_store_ids = set(my_stores[store_id_col].astype(str))
-            merged = merged[merged[promo_store_col].astype(str).isin(my_store_ids)]
+            if promo_chain_col and chain_col and chain_col in my_stores.columns:
+                my_store_keys = set(
+                    my_stores[chain_col].astype(str) + "::" + my_stores[store_id_col].astype(str)
+                )
+                merged_keys = merged[promo_chain_col].astype(str) + "::" + merged[promo_store_col].astype(str)
+                merged = merged[merged_keys.isin(my_store_keys)]
+            else:
+                my_store_ids = set(my_stores[store_id_col].astype(str))
+                merged = merged[merged[promo_store_col].astype(str).isin(my_store_ids)]
 
         for _, row in merged.iterrows():
             name = row.get(item_name_col)
