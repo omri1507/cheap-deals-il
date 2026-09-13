@@ -21,11 +21,25 @@ jobs:
         with:
           python-version: "3.11"
 
+      # The full price+promo catalogs for 3 chains run into several GB, and
+      # ubuntu-latest's default free disk (~14GB) isn't reliably enough —
+      # one run failed with "No space left on device". Free the large
+      # preinstalled toolchains we don't use (a standard fix for GitHub-
+      # hosted runners) to get back 20-30GB before scraping anything.
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/.ghcup /opt/az || true
+          df -h /
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run weekly scrape + filter
         run: python3 weekly_deals.py
+
+      - name: Disk usage after scrape (debug)
+        if: always()
+        run: df -h /
 
       - name: Commit updated data
         run: |
