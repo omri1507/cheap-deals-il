@@ -224,6 +224,18 @@ def build_digest() -> dict:
 
         for _, row in merged.iterrows():
             name = row.get(item_name_col)
+            used_description_fallback = False
+            if not isinstance(name, str) or not name.strip():
+                # Not every chain's PromoFull schema puts a flat itemcode on
+                # the promotion row itself — Shufersal's nests item codes
+                # under a per-promotion item list this parser doesn't
+                # flatten here, so the itemcode join above never resolves a
+                # name for it. Fall back to the promo's own description,
+                # which usually names the item directly (e.g. "קופון דבש
+                # לחיץ 500 גרם"), rather than silently dropping every promo
+                # from chains with this schema shape.
+                name = row.get(promo_desc_col) if promo_desc_col else None
+                used_description_fallback = True
             if not is_food_and_vegan(name):
                 continue
             deals.append(
@@ -231,6 +243,7 @@ def build_digest() -> dict:
                     "chain": row.get(promo_chain_col) if promo_chain_col else None,
                     "store_id": row.get(promo_store_col) if promo_store_col else None,
                     "item_name": name,
+                    "item_name_is_promo_description": used_description_fallback,
                     "promo_price": row.get(promo_price_col) if promo_price_col else None,
                     "promo_description": row.get(promo_desc_col) if promo_desc_col else None,
                     "start_date": row.get(promo_start_col) if promo_start_col else None,
