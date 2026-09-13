@@ -16,7 +16,10 @@ from il_supermarket_scarper import ScraperFactory
 CHAINS = [
     ScraperFactory.RAMI_LEVY.name,
     ScraperFactory.SHUFERSAL.name,
-    ScraperFactory.VICTORY.name,
+    # VICTORY is deprecated in this library version (site moved) — use the
+    # replacement source instead. ScraperFactory.get() rejects deprecated
+    # names outright, so the plain VICTORY enum member 404s at scrape time.
+    ScraperFactory.VICTORY_NEW_SOURCE.name,
 ]
 
 # Loose, case-insensitive substring matches against the store file's

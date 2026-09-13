@@ -58,8 +58,8 @@ def parse_to_csv() -> None:
         shutil.rmtree(PARSED_DIR)
     task = ConvertingTask(
         source_configuration={"folder": DUMPS_DIR},
-        output_configuration={"output_folder": PARSED_DIR, "output_mode": "csv"},
-        status_configuration={},
+        output_configuration=[{"output_mode": "csv", "output_folder": PARSED_DIR}],
+        status_configuration={"database_type": "json", "base_path": PARSED_DIR},
         enabled_parsers=config.CHAINS,
     )
     thread = task.start()
