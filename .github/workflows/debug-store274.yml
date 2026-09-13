@@ -26,7 +26,7 @@ jobs:
 
           task = ScarpingTask(
               enabled_scrapers=["SHUFERSAL"],
-              files_types=[FileTypesFilters.PRICE_FULL_FILE.name, FileTypesFilters.PROMO_FULL_FILE.name],
+              files_types=[FileTypesFilters.PROMO_FULL_FILE.name],
               multiprocessing=3,
               timeout_in_seconds=1200,
           )
@@ -49,7 +49,7 @@ jobs:
           promo_df = None
           for root, dirs, files in os.walk("parsed"):
               for f in files:
-                  if "promofull" in f.lower():
+                  if "promo" in f.lower() and f.lower().endswith(".csv"):
                       df = pd.read_csv(os.path.join(root, f), dtype=str).ffill()
                       promo_df = df if promo_df is None else pd.concat([promo_df, df], ignore_index=True)
 
