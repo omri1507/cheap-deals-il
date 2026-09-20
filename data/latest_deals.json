@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-13T18:15:58.345773+00:00",
+  "generated_at": "2026-09-20T09:10:27.929226+00:00",
   "chains_tracked": [
     "RAMI_LEVY",
     "SHUFERSAL",
     "VICTORY_NEW_SOURCE"
   ],
   "matched_store_count": 1,
-  "deal_count": 1844,
+  "deal_count": 1918,
   "deals": [
     {
       "chain": "7290027600007",
@@ -2081,6 +2081,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "צלחות גדולות 1קג חוויה",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "אקספרס SBOX מבצע כרטיס אשראי",
+      "start_date": "2026-08-23T00:00:00.000",
+      "end_date": "2026-10-04T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -2571,206 +2581,6 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "שקיות אוכל 2*150י XPO",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "1+1 שקיות אוכל/שקיות רב שימושיות 3",
-      "start_date": "2026-08-25T00:00:00.000",
-      "end_date": "2026-09-16T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "24.90 פררו רושה קולקשיין 172גר",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "כוס שתייה מעוטר כסף 50 י",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב12כוסות שתייה כוכבים כסף/זהב 50יח-קופה",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "אגוז מלך טבעי150ג הקולה",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "10אגוזי מלך150ג/חמוציות מסוכרות250ג-קופה",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "חמוציות 250 גרם",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "10אגוזי מלך150ג/חמוציות מסוכרות250ג-קופה",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב119.40 פקדון דלתון 750 מ\"ל",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב119.40 פקדון דלתון 750 מ\"ל",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב119.40 פקדון דלתון 750 מ\"ל",
-      "start_date": "2026-08-31T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "עלי חסה ערבית שטופים (ק)",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב20 מגוון לקטים ועלי חסה/ פרסקו",
-      "start_date": "2026-09-06T00:00:00.000",
-      "end_date": "2026-09-20T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "לקט קלאסי שטוף (ק)",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב20 מגוון לקטים ועלי חסה/ פרסקו",
-      "start_date": "2026-09-06T00:00:00.000",
-      "end_date": "2026-09-20T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "לקט הגינה שטוף (ק)",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב20 מגוון לקטים ועלי חסה/ פרסקו",
-      "start_date": "2026-09-06T00:00:00.000",
-      "end_date": "2026-09-20T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "לקט השדה (ק)",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב20 מגוון לקטים ועלי חסה/ פרסקו",
-      "start_date": "2026-09-06T00:00:00.000",
-      "end_date": "2026-09-20T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "לקט המושב (ק)",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב20 מגוון לקטים ועלי חסה/ פרסקו",
-      "start_date": "2026-09-06T00:00:00.000",
-      "end_date": "2026-09-20T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 4.90 פלפל אדום-מות100",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "קטיף 4.90 פלפל אדום-מות100",
-      "item_name_is_promo_description": true,
-      "promo_price": NaN,
-      "promo_description": "קטיף 4.90 פלפל אדום-מות100",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "בצל יבש אדום",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 4.90 בצל יבש אדום",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "קוביות סלק מבושל בואקום",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב4.90 מעדן סלק/קוביות סלק בוואקום",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "סלק מבושל בואקום",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב4.90 מעדן סלק/קוביות סלק בוואקום",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "צנונית ארוזה כ-400 ג",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב4.90 צנונית -יחידה",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "צנונית מארז )ק(",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "קטיף 2ב4.90 צנונית -יחידה",
-      "start_date": "2026-09-07T00:00:00.000",
-      "end_date": "2026-09-14T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -3201,16 +3011,6 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "גלידת סנדוויץ וניל שוקול",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "ב. 2ב15.90 גלידות שמנת בטעמים75-80 גרם R",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "אסקימוס פיסטוק שוקולדRUD",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -3404,6 +3204,16 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
+      "promo_description": "2ב22 שקיות ריצרץ+סגר15י ניקול",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
       "promo_description": "40 תה ירוק 50 שקיקים",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -3515,16 +3325,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "38.10 פקדון בירה אסטרייה דאם330*6מ",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב7.40 פקדון נורדיק סודה 250 מ\"ל",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -4031,10 +3831,10 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "סיגר במילוי תפו\"א 400 גר",
+      "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "ב. 2ב26 מוצרים מטוגנים סבתא מסעודה 400",
+      "promo_description": "KH-7 22.90סופר קלינר ח.רחצה750",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -4144,16 +3944,6 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "15.90 גרנולה פיטנס 300 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
       "promo_description": "3ב55 קפסולות קפה 51-57 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -4215,16 +4005,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "3ב55 קפסולות קפה 51-57 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב25 חומוס/סלטי צבר 375-400 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -4601,6 +4381,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "עדשים ירוקות 500 גרם",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 עדשים אדומות/ירוקות/שחורות 500",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "עדשים שחורות 500 גרם",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -4615,16 +4405,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "29.90 קפה קרונונג 190גר גקובס",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב32 יוגורט יווני 600 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -4711,7 +4491,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "סוכריות ג'לי ברי מיק",
+      "item_name": "סוכר.גלי פירות יער 200ג",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב18 סוכריות גלי בטעמים 200 גרם",
@@ -5381,7 +5161,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "וופל בטעם אגוז רושן",
+      "item_name": "וופל רושן בטעם אגוז 216ג",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב20 וופל רושן בטעמים 216 גרם",
@@ -5534,7 +5314,7 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "14.90 טבלאות שוקולד בטעמים פררו 90-9",
+      "promo_description": "13.90 טבלאות שוקולד בטעמים פררו 90-9",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -5544,7 +5324,7 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "14.90 טבלאות שוקולד בטעמים פררו 90-9",
+      "promo_description": "13.90 טבלאות שוקולד בטעמים פררו 90-9",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -5554,7 +5334,7 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "14.90 טבלאות שוקולד בטעמים פררו 90-9",
+      "promo_description": "13.90 טבלאות שוקולד בטעמים פררו 90-9",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -5564,7 +5344,7 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "14.90 טבלאות שוקולד בטעמים פררו 90-9",
+      "promo_description": "13.90 טבלאות שוקולד בטעמים פררו 90-9",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -5705,16 +5485,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב35 עוגיות מזרחיות 400 גרם עבאדי",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "9ב30 תפוציפס חטיף תפוח אדמה 45-65",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -6174,36 +5944,6 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "14.60 פקדון סאפה אלוורה 1 ליטר",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "14.60 פקדון סאפה אלוורה 1 ליטר",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "14.60 פקדון סאפה אלוורה 1 ליטר",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
       "promo_description": "2ב26 חרדל 200-350 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -6541,6 +6281,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "כוסות 100 יחידות פלס",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב10 כוסות לשתיה קרה 180 מ\"ל 100 יח",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "100כוסות פלסטיק חדפ 180מ",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -6621,6 +6371,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "צלחות גדולות 1קג חוויה",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "14.90 צלחות גדולות 1 ק\"ג לפיד/אחת שת",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "טורטיות קמח כוסמת 8*40גר",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -6652,16 +6412,6 @@
       "chain": "7290027600007",
       "store_id": "274",
       "item_name": "טורטיה חיטה מלאה 8*40גרם",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "7.90 טורטיה זרעי ציה/כוסמת/כוסמין/",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "טורטיות פשתן וציה *40ג8",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "7.90 טורטיה זרעי ציה/כוסמת/כוסמין/",
@@ -7591,6 +7341,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "פולי סויה שלם450ג ירוקים",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב. 2ב18 פולי סויה שלמים/קלופים 450 גרם",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -7665,6 +7425,16 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "17.10 פקדון נביעות פקק טו גו 755*6מ",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "שלגון אוכמניות 85גro",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב. 3ב20 גלידת שמנת בטעמים 65-85 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -8351,16 +8121,6 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "מיני בורגר אנגוס500קרלוס",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "ב. 2ב55 המבורגר/קבב/נקנקיות אנגוס חלק",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -8391,20 +8151,10 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "שפירא איי.פי.איי 330 מ\"ל",
+      "item_name": "בירה שפירא כחול 330",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב29.40 פקדון בריזר/שפירא אייל 275-330 מ",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "8.90 מאסטר קפה 240 מ\"ל",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -9351,16 +9101,6 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "קמח שיפון מלא 1 ק\"ג",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב15 קמח לאפיית לחם/חיטה מלאה 1 ק\"ג",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "קמח לאפיית לחם1קג מאפית",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -9684,7 +9424,7 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "4ב22 רטבי עגבניות 230-240 גרם פריני",
+      "promo_description": "4ב15 חטיף מרס/סניקרס/באונטי/טוויקס",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -9937,6 +9677,16 @@
       "promo_description": "10 דובשניות מיני 300 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "99.7פקדון וודקה גריי גוס 700 מ\"ל-קופה",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
     },
     {
       "chain": "7290027600007",
@@ -10371,6 +10121,26 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "חטיף שוקולד במילוי ק",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב10 חטיף שוקולד/וופל ממולא34-43 גר",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "חט.שוקולד קרם בוטן39רושן",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב10 חטיף שוקולד/וופל ממולא34-43 גר",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "בלינצ'ס פרווה במילוי",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -10422,6 +10192,26 @@
       "chain": "7290027600007",
       "store_id": "274",
       "item_name": "עוגיות אוזניים500ג ניני",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 מגוון עוגיות/אוזני המן 500 גרם",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "עוגיות גרנולה 500ג ניני",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 מגוון עוגיות/אוזני המן 500 גרם",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "עוגיות כתר ריבה500ג ניני",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב25 מגוון עוגיות/אוזני המן 500 גרם",
@@ -10601,7 +10391,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "עוגיות אוזניים 200 גרם",
+      "item_name": "עוג.מעדן תמרים+אגוז200",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב40 עוגיות VOILA 200 גרם",
@@ -11171,7 +10961,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "מסיר שומנים 750 מ\"ל",
+      "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "12.90 מסיר שומנים קר750 מוריץ",
@@ -11711,27 +11501,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "עוג.מרוקאיות ללת\"ס 300ג",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב30 עוגיות פטיסרי 300-350 גרם VOIL",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "עוגיות קואקר ללת\"ס 300ג",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב30 עוגיות פטיסרי 300-350 גרם VOIL",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "עוגיות מלוחות פיקנטי 350",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב30 עוגיות פטיסרי 300-350 גרם VOIL",
@@ -11762,16 +11532,6 @@
       "chain": "7290027600007",
       "store_id": "274",
       "item_name": "עוג.מלוח קריספי עגול500",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב25 עוגיות בדלי לה פזואלוס 500 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "עוג.מלוח קריספי ארוך500ג",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב25 עוגיות בדלי לה פזואלוס 500 גרם",
@@ -12034,26 +11794,6 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "2ב24 רסק תפוחי עץ תומר 113*4 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב24 רסק תפוחי עץ תומר 113*4 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
       "promo_description": "2ב26 קורנישונים בחומץ 670 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -12075,6 +11815,16 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "109.70 פקדון שאבלי די ליני 750 מ\"ל",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "109.70 פקדון וודקה גריי גוס 700 מ\"ל",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -13052,16 +12802,6 @@
       "chain": "7290027600007",
       "store_id": "274",
       "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב22 קרקר THIN בטעמים 140-150 גרם",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "קרקר דק כוסמין ובצל140ג",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב22 קרקר THIN בטעמים 140-150 גרם",
@@ -14281,6 +14021,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "קציצות עדשים כתומות 530",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב. 2ב60 מגוון מוצרי טבעול 400-750 גרם",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -14445,16 +14195,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "12.70 פקדון שוופס סודה 4 * 1.5 ליטר",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "להקרמריה שוקווניל כשל\"פ",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "ב. 2ב42 גלידות בטעמים שונים 1.4 ליטר",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -14571,7 +14311,7 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "מאגדת להפרוטה תפוז אננס6",
+      "item_name": "לה פרוטה מלון תפוח 5יח",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "ב. 24.90 מאג.לה פרוטה/נסטלה בטעמי פירות",
@@ -14581,10 +14321,10 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "לה פרוטה מלון תפוח 5יח",
+      "item_name": "מאג.מיני מילקה וניל6*37ג",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "ב. 24.90 מאג.לה פרוטה/נסטלה בטעמי פירות",
+      "promo_description": "ב. 2ב50 מאג.קראנצ בטעמים/מיני וניל/קר",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -15201,16 +14941,6 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
-      "item_name": "קרקר פריך שיפון300ג ARDO",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב30 קרקר שוודי/חיטה 300 גרם שופרסל",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
       "item_name": "קרקר פריך שוודי300ג ARDO",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -15625,16 +15355,6 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב20 טורטיה דגנים/חיטה/חיטה מלאה 32",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב48 טמפוני o.b אוריגינל 32 יחידות",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -16321,6 +16041,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "שופרסל כוס שתיה חמה 10OZ",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 שופרסל כוס שתיה חמה 10OZ",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "פסטה פוזילי MANTANINO",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -16561,6 +16291,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "ת.רחצה קלאסי750מ לה מון",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "10 תחליב רחצה 750 מ\"ל LaMoon",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "ת.רחצה מלפפון750מ לה מון",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -16612,16 +16352,6 @@
       "chain": "7290027600007",
       "store_id": "274",
       "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
-      "promo_description": "2ב22 עוגיות שוקולד ציפס מרבה 160-2",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "עוגיות שוקולד צ'יפס",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "2ב22 עוגיות שוקולד ציפס מרבה 160-2",
@@ -16714,16 +16444,6 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
-      "promo_description": "2ב66.40 פקדון בירה גולדסטאר בק330*6מ\"ל",
-      "start_date": "2026-09-13T00:00:00.000",
-      "end_date": "2026-10-03T02:59:00.000"
-    },
-    {
-      "chain": "7290027600007",
-      "store_id": "274",
-      "item_name": "''",
-      "item_name_is_promo_description": false,
-      "promo_price": NaN,
       "promo_description": "2ב66.40 פקדון בירה גולדסטאר לא מסוננת 6",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -16765,6 +16485,16 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "16.90 גאודה הולנדית 28% 150ג",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "וויסקי לאודרס 700 מ\"ל",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "94.60 פקדון וויסקי לאודרס 700 מ\"ל",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -16815,6 +16545,16 @@
       "item_name_is_promo_description": false,
       "promo_price": NaN,
       "promo_description": "14.90 פריכיות תירס/אורז 150 גרם",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "16.90 גל גילוח 198 גרם אדג",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
     },
@@ -17914,6 +17654,26 @@
       "item_name": "''",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
+      "promo_description": "2ב24.40 פקדון מיץ פרוט אנד ווג 1 ליטר",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24.40 פקדון מיץ פרוט אנד ווג 1 ליטר",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
       "promo_description": "2ב28 רוטב צילי/טריאקי 700 מ\"ל",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
@@ -17937,6 +17697,26 @@
       "promo_description": "2ב25 טורטיה כוסמין 240 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "מפצל-קופה T+2ב20ש כבל מאריך3 מטר",
+      "item_name_is_promo_description": true,
+      "promo_price": NaN,
+      "promo_description": "מפצל-קופה T+2ב20ש כבל מאריך3 מטר",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "מפצל-קופה T+2ב20ש כבל מאריך3 מטר",
+      "item_name_is_promo_description": true,
+      "promo_price": NaN,
+      "promo_description": "מפצל-קופה T+2ב20ש כבל מאריך3 מטר",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
     },
     {
       "chain": "7290027600007",
@@ -18157,6 +17937,26 @@
       "promo_description": "29.90 מלטיזרס 300 גרם",
       "start_date": "2026-09-13T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "סוכריות לל\"ס ט.דובדבן14ג",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב10ש סוכריות ללא סוכר סקנדיק 14 גרם",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "סוכריות ל\"לס ט.מנטה14ג",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב10ש סוכריות ללא סוכר סקנדיק 14 גרם",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-05T02:59:00.000"
     },
     {
       "chain": "7290027600007",
@@ -18401,6 +18201,16 @@
     {
       "chain": "7290027600007",
       "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "23.90 נוטלה על בסיס צמחי 350 ג",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
       "item_name": "קוביות גולש מצונן חלק מח",
       "item_name_is_promo_description": false,
       "promo_price": NaN,
@@ -18447,6 +18257,936 @@
       "promo_description": "ב. 159 אנטריקוט פרימיום פרוס",
       "start_date": "2026-09-10T00:00:00.000",
       "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "מים בתוספת מינרלים 600מל",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "9.60 פקדון מים בתוספת מינרלים 600מל",
+      "start_date": "2026-09-13T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 4.90 פלפל אדום-מות100",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "קטיף 4.90 פלפל אדום-מות100",
+      "item_name_is_promo_description": true,
+      "promo_price": NaN,
+      "promo_description": "קטיף 4.90 פלפל אדום-מות100",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "קוביות סלק מבושל בואקום",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 2ב4.90 מעדן סלק/קוביות סלק בוואקום",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "סלק מבושל בואקום",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 2ב4.90 מעדן סלק/קוביות סלק בוואקום",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "בצל יבש אדום",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 4.90 בצל יבש אדום",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "צנונית ארוזה כ-400 ג",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 2ב4.90 צנונית -יחידה",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "צנונית מארז )ק(",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 2ב4.90 צנונית -יחידה",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-21T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דניס שלם נקי טרי",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב2- ב 160 שח דניס שלם טרי",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-26T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דניס שלם טרי",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב2- ב 160 שח דניס שלם טרי",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-26T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דניס שלם נקי טרי",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "ב2- ב 160 שח דניס שלם טרי",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-09-26T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "נרות שבת 4 יחידות",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "1+1 נרות שבת 4-20יחידות",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "נרות שבת 6 יחידות",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "1+1 נרות שבת 4-20יחידות",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "נרות שבת 8 יחידות 8 יחיד",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "1+1 נרות שבת 4-20יחידות",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "נרות שבת 10 יחידות",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "1+1 נרות שבת 4-20יחידות",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "10 מיונז הלמנס רגיל/לייט 424/394",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "10 מיונז הלמנס רגיל/לייט 424/394",
+      "start_date": "2026-09-14T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "נריה קברנה סוביניון750מל",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב99.10 פקדון נריה קברנה סוביניון/מרלו/א",
+      "start_date": "2026-09-15T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "יין מרלו 750 מ\"ל נריה",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב99.10 פקדון נריה קברנה סוביניון/מרלו/א",
+      "start_date": "2026-09-15T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "יין מרלו 750 מ\"ל חלמיש",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב99.40 פקדון חלמיש יין קברנה/מרלו/שרדונ",
+      "start_date": "2026-09-15T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 נשנושי קרקר 300 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 חטיפי נשנושים 200-325 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 חטיפי נשנושים 200-325 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 חטיפי נשנושים 200-325 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 חטיפי נשנושים 200-325 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב16 מרק נמס בכוס זוג קנור",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב24.90 חטיף כיפלי בטעם גריל/בצל 70 גר",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "3ב24.90 חטיף כיפלי בטעם גריל/בצל 70 גר",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב26 תחליב רחצה דאב 500 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 מארז חטיפי דגני לילדים תלמה -5",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 מארז חטיפי דגני לילדים תלמה -5",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 מארז חטיפי דגני לילדים תלמה -5",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב36 קרקר פריך 200-300 גרם פתית",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב36 קרקר פריך 200-300 גרם פתית",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "21.90 קורנפלקס דבש/מייפל/וניל/בננה/ת",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 רטבים לסלט הלמנס 290 מ\"ל / 290",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 רטבים לסלט הלמנס 290 מ\"ל / 290",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 רטבים לסלט הלמנס 290 מ\"ל / 290",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 בייגלה שומשום/מלח,לא כולל גדול",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 בייגלה שומשום/מלח,לא כולל גדול",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "בייגלה טבעות שומשום",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 בייגלה שומשום/מלח,לא כולל גדול",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "24.90 דליפקאן/דלישקד 400 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "15.90 סירופ בטעם מייפל/שוקולד אפיכל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "15.90 סירופ בטעם מייפל/שוקולד אפיכל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דאודורנט דאב-אורגינל 150",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 דאודורנט ספריי לאישה דאב 150 מ",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דאודורנט דאב-מלפפון150מל",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 דאודורנט ספריי לאישה דאב 150 מ",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 דאב תרחיץ פנים 180 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב32 דאודורנט סטיק 50 גרם דאב",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "19.90 דאב תחליב רחצה 750 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "19.90 דאב תחליב רחצה 750 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב30 שמפו/מרכך לטיפוח יום יומי דאב",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב30 שמפו/מרכך לטיפוח יום יומי דאב",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 גל רחצה 400 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 גל רחצה 400 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "3ב1גל רחצה אקס אפיק400מ",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 גל רחצה 400 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב26 תחליבי רחצה פינוק 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב26 תחליבי רחצה פינוק 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב26 תחליבי רחצה פינוק 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב34 דאודורנט אקס אנטי-פרספירנט 150",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב34 דאודורנט אקס אנטי-פרספירנט 150",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 פינוק שמפו/מרכך 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 פינוק שמפו/מרכך 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 פינוק שמפו/מרכך 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 פינוק שמפו/מרכך 700 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 מרכך כביסה בדין אקסטרה 960 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 מרכך כביסה בדין אקסטרה 960 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25 מרכך כביסה בדין אקסטרה 960 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "19.90 מרק עוף אמיתי קנור 400 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "19.90 מרק עוף אמיתי קנור 400 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "קליק כריות נוגט 65 ג",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב15 חטיף קליק 65 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב22 חטיף דג דג בטעמים 235-250 גרם",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 רטבי בישול בקבוק קנור 300-370",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב24 רטבי בישול בקבוק קנור 300-370",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "דאב רול און אורגינל 50מל",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב20 דאב דאודורנט רול און 50 מ\"ל",
+      "start_date": "2026-09-16T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב56.40 פקדון בירה גולדסטאר בק330*6מ\"ל",
+      "start_date": "2026-09-20T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25.40 פקדון סאפה אלוורה 1 ליטר",
+      "start_date": "2026-09-18T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25.40 פקדון סאפה אלוורה 1 ליטר",
+      "start_date": "2026-09-18T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "''",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "2ב25.40 פקדון סאפה אלוורה 1 ליטר",
+      "start_date": "2026-09-18T00:00:00.000",
+      "end_date": "2026-10-03T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "עלי חסה ערבית שטופים (ק)",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 9.90 חסה ערבית שטוף/לקט קלאסי/לקט ה",
+      "start_date": "2026-09-20T00:00:00.000",
+      "end_date": "2026-10-04T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "לקט קלאסי שטוף (ק)",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 9.90 חסה ערבית שטוף/לקט קלאסי/לקט ה",
+      "start_date": "2026-09-20T00:00:00.000",
+      "end_date": "2026-10-04T02:59:00.000"
+    },
+    {
+      "chain": "7290027600007",
+      "store_id": "274",
+      "item_name": "לקט הגינה שטוף (ק)",
+      "item_name_is_promo_description": false,
+      "promo_price": NaN,
+      "promo_description": "קטיף 9.90 חסה ערבית שטוף/לקט קלאסי/לקט ה",
+      "start_date": "2026-09-20T00:00:00.000",
+      "end_date": "2026-10-04T02:59:00.000"
     }
   ]
 }
