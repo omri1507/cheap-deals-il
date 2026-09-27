@@ -23,13 +23,14 @@
     "subchainid",
     "storeid",
     "bikoretno",
-    "priceupdatedate",
+    "priceupdatetime",
     "itemcode",
+    "lastsaledatetime",
     "itemtype",
-    "itemnm",
-    "manufacturername",
+    "itemname",
+    "manufacturename",
     "manufacturecountry",
-    "manufactureritemdescription",
+    "manufactureitemdescription",
     "unitqty",
     "quantity",
     "unitofmeasure",
@@ -39,11 +40,10 @@
     "unitofmeasureprice",
     "allowdiscount",
     "itemstatus",
-    "priceupdatetime",
-    "lastsaledatetime",
-    "itemname",
-    "manufacturename",
-    "manufactureitemdescription"
+    "priceupdatedate",
+    "itemnm",
+    "manufacturername",
+    "manufactureritemdescription"
   ],
   "promo_columns": [
     "found_folder",
@@ -82,7 +82,7 @@
     "minnoofitemofered",
     "promotionitems"
   ],
-  "stores_row_count": 713,
-  "prices_row_count": 5135153,
-  "promo_row_count": 876715
+  "stores_row_count": 714,
+  "prices_row_count": 5871991,
+  "promo_row_count": 1078008
 }
