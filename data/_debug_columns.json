@@ -43,7 +43,8 @@
     "priceupdatedate",
     "itemnm",
     "manufacturername",
-    "manufactureritemdescription"
+    "manufactureritemdescription",
+    "itemid"
   ],
   "promo_columns": [
     "found_folder",
@@ -80,9 +81,15 @@
     "discountedprice",
     "discountedpricepermida",
     "minnoofitemofered",
-    "promotionitems"
+    "promotionitems",
+    "isweightedpromo",
+    "weightunit",
+    "clubs",
+    "minpurchaseamnt",
+    "minamount",
+    "maxamount"
   ],
-  "stores_row_count": 714,
-  "prices_row_count": 5871991,
-  "promo_row_count": 1078008
+  "stores_row_count": 297,
+  "prices_row_count": 6228010,
+  "promo_row_count": 800789
 }
